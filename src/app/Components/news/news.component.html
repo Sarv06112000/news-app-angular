@@ -1,0 +1,13 @@
+<div class="container-fluid">
+    <div class="row">
+        <app-news-item class="col" *ngFor="let article of articles"
+            urlToImage="{{article.urlToImage ? article.urlToImage : imgNotFound }}" url='{{
+            article.url }}' description='{{ article.description }}' title='{{ article.title }}'></app-news-item>
+    </div>
+    <!-- <div class="row">
+        <app-news-item class="col" [urlToImage]="'https://c.biztoc.com/p/92f221274a6f194e/s.webp'"
+            [url]="'https://biztoc.com/x/92f221274a6f194e'"
+            [title]="'Hedge-fund billionaire Ken Griffin discussed retail investors, raging wars, and the risk of a recession next year. Here are his 14 best quotes from a new…'"
+            [description]="'None Citadels billionaire chief said a recession is most likely to hit in the second quarter of 2024. • None Griffin called for prudent government spending and warned a US-China decoupling would be disastrous. Ken Griffin discussed everything from retail inv…'"></app-news-item>
+    </div> -->
+</div>

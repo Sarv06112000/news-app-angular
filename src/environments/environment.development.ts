@@ -1,5 +1,5 @@
 export const environment = {
-    apiKey: "3d2a7905526a44b6930ce8646c78826d",
+    apiKey: "DEVELOPERS_API_KEY",
     apiUrl: "https://newsapi.org/v2/top-headlines?",
     pageSize: 100
 };
